@@ -42,7 +42,7 @@ export default class Api {
                 .catch(console.log);
         });
         this.express.get("/api/callers", (req, res) => {
-            this.db.getMaps()
+            this.db.getCallers()
                 .then((callers) =>{ res.json(callers) })
                 .catch(console.log);
         });

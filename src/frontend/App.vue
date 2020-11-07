@@ -11,19 +11,28 @@
                     <router-link to="/" class="nav-link">Home</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/about" class="nav-link">About</router-link>
+                    <router-link to="/maps" class="nav-link">Karten</router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/api/animals" target="_blank">Turbine</a>
+                    <router-link to="/callers" class="nav-link">Rufer</router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/api/callers" target="_blank">aircrafts</a>
+                    <router-link to="/animals" class="nav-link">Tiere</router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/api/calibers" target="_blank">aircrafts</a>
+                    <router-link to="/calibers" class="nav-link">Kaliber</router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/api/maps" target="_blank">aircrafts</a>
+                    <a class="nav-link" href="/api/animals" target="_blank">API Tiere</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/api/callers" target="_blank">API Rufer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/api/calibers" target="_blank">API Kaliber</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/api/maps" target="_blank">API Karten</a>
                 </li>
             </ul>
         </div>
