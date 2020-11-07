@@ -1,0 +1,4464 @@
+{
+    "ammo": [
+        {
+            "caliberID": "1",
+            "ammoTypeID": "1",
+            "ammoRange": "100",
+            "penetration": "5",
+            "expansion": "10",
+            "costs": "200"
+        },
+        {
+            "caliberID": "2",
+            "ammoTypeID": "13",
+            "ammoRange": "20",
+            "penetration": "10",
+            "expansion": "0",
+            "costs": "530"
+        },
+        {
+            "caliberID": "2",
+            "ammoTypeID": "14",
+            "ammoRange": "30",
+            "penetration": "10",
+            "expansion": "0",
+            "costs": "600"
+        },
+        {
+            "caliberID": "3",
+            "ammoTypeID": "3",
+            "ammoRange": "150",
+            "penetration": "20",
+            "expansion": "3",
+            "costs": "350"
+        },
+        {
+            "caliberID": "3",
+            "ammoTypeID": "6",
+            "ammoRange": "150",
+            "penetration": "10",
+            "expansion": "12",
+            "costs": "220"
+        },
+        {
+            "caliberID": "4",
+            "ammoTypeID": "1",
+            "ammoRange": "50",
+            "penetration": "12",
+            "expansion": "18",
+            "costs": "220"
+        },
+        {
+            "caliberID": "4",
+            "ammoTypeID": "8",
+            "ammoRange": "50",
+            "penetration": "50",
+            "expansion": "4",
+            "costs": "350"
+        },
+        {
+            "caliberID": "5",
+            "ammoTypeID": "8",
+            "ammoRange": "50",
+            "penetration": "17",
+            "expansion": "70",
+            "costs": "530"
+        },
+        {
+            "caliberID": "5",
+            "ammoTypeID": "10",
+            "ammoRange": "25",
+            "penetration": "0",
+            "expansion": "0",
+            "costs": "200"
+        },
+        {
+            "caliberID": "6",
+            "ammoTypeID": "1",
+            "ammoRange": "50",
+            "penetration": "15",
+            "expansion": "70",
+            "costs": "200"
+        },
+        {
+            "caliberID": "6",
+            "ammoTypeID": "5",
+            "ammoRange": "50",
+            "penetration": "27",
+            "expansion": "6",
+            "costs": "300"
+        },
+        {
+            "caliberID": "7",
+            "ammoTypeID": "3",
+            "ammoRange": "150",
+            "penetration": "30",
+            "expansion": "4",
+            "costs": "530"
+        },
+        {
+            "caliberID": "7",
+            "ammoTypeID": "6",
+            "ammoRange": "150",
+            "penetration": "15",
+            "expansion": "17",
+            "costs": "0"
+        },
+        {
+            "caliberID": "8",
+            "ammoTypeID": "1",
+            "ammoRange": "75",
+            "penetration": "17",
+            "expansion": "17",
+            "costs": "480"
+        },
+        {
+            "caliberID": "8",
+            "ammoTypeID": "5",
+            "ammoRange": "75",
+            "penetration": "35",
+            "expansion": "4",
+            "costs": "220"
+        },
+        {
+            "caliberID": "9",
+            "ammoTypeID": "2",
+            "ammoRange": "150",
+            "penetration": "15",
+            "expansion": "17",
+            "costs": "380"
+        },
+        {
+            "caliberID": "10",
+            "ammoTypeID": "13",
+            "ammoRange": "20",
+            "penetration": "50",
+            "expansion": "0",
+            "costs": "700"
+        },
+        {
+            "caliberID": "10",
+            "ammoTypeID": "14",
+            "ammoRange": "30",
+            "penetration": "50",
+            "expansion": "0",
+            "costs": "770"
+        },
+        {
+            "caliberID": "11",
+            "ammoTypeID": "1",
+            "ammoRange": "50",
+            "penetration": "17",
+            "expansion": "70",
+            "costs": "260"
+        },
+        {
+            "caliberID": "11",
+            "ammoTypeID": "8",
+            "ammoRange": "50",
+            "penetration": "70",
+            "expansion": "17",
+            "costs": "530"
+        },
+        {
+            "caliberID": "12",
+            "ammoTypeID": "9",
+            "ammoRange": "25",
+            "penetration": "0",
+            "expansion": "0",
+            "costs": "150"
+        },
+        {
+            "caliberID": "12",
+            "ammoTypeID": "10",
+            "ammoRange": "25",
+            "penetration": "0",
+            "expansion": "0",
+            "costs": "150"
+        },
+        {
+            "caliberID": "12",
+            "ammoTypeID": "11",
+            "ammoRange": "25",
+            "penetration": "4",
+            "expansion": "0",
+            "costs": "500"
+        },
+        {
+            "caliberID": "12",
+            "ammoTypeID": "12",
+            "ammoRange": "50",
+            "penetration": "33",
+            "expansion": "16",
+            "costs": "800"
+        },
+        {
+            "caliberID": "13",
+            "ammoTypeID": "10",
+            "ammoRange": "25",
+            "penetration": "0",
+            "expansion": "0",
+            "costs": "180"
+        },
+        {
+            "caliberID": "13",
+            "ammoTypeID": "11",
+            "ammoRange": "25",
+            "penetration": "5",
+            "expansion": "0",
+            "costs": "530"
+        },
+        {
+            "caliberID": "13",
+            "ammoTypeID": "12",
+            "ammoRange": "50",
+            "penetration": "37",
+            "expansion": "16",
+            "costs": "880"
+        },
+        {
+            "caliberID": "14",
+            "ammoTypeID": "13",
+            "ammoRange": "20",
+            "penetration": "75",
+            "expansion": "0",
+            "costs": "950"
+        },
+        {
+            "caliberID": "15",
+            "ammoTypeID": "1",
+            "ammoRange": "75",
+            "penetration": "20",
+            "expansion": "27",
+            "costs": "660"
+        },
+        {
+            "caliberID": "15",
+            "ammoTypeID": "7",
+            "ammoRange": "75",
+            "penetration": "40",
+            "expansion": "6",
+            "costs": "390"
+        },
+        {
+            "caliberID": "16",
+            "ammoTypeID": "3",
+            "ammoRange": "150",
+            "penetration": "35",
+            "expansion": "5",
+            "costs": "700"
+        },
+        {
+            "caliberID": "16",
+            "ammoTypeID": "6",
+            "ammoRange": "150",
+            "penetration": "17",
+            "expansion": "24",
+            "costs": "440"
+        },
+        {
+            "caliberID": "17",
+            "ammoTypeID": "3",
+            "ammoRange": "150",
+            "penetration": "38",
+            "expansion": "11",
+            "costs": "850"
+        },
+        {
+            "caliberID": "17",
+            "ammoTypeID": "6",
+            "ammoRange": "150",
+            "penetration": "19",
+            "expansion": "50",
+            "costs": "590"
+        },
+        {
+            "caliberID": "18",
+            "ammoTypeID": "3",
+            "ammoRange": "150",
+            "penetration": "40",
+            "expansion": "12",
+            "costs": "880"
+        },
+        {
+            "caliberID": "18",
+            "ammoTypeID": "6",
+            "ammoRange": "150",
+            "penetration": "20",
+            "expansion": "53",
+            "costs": "610"
+        },
+        {
+            "caliberID": "19",
+            "ammoTypeID": "2",
+            "ammoRange": "150",
+            "penetration": "20",
+            "expansion": "53",
+            "costs": "610"
+        },
+        {
+            "caliberID": "19",
+            "ammoTypeID": "3",
+            "ammoRange": "150",
+            "penetration": "40",
+            "expansion": "12",
+            "costs": "880"
+        },
+        {
+            "caliberID": "20",
+            "ammoTypeID": "1",
+            "ammoRange": "50",
+            "penetration": "25",
+            "expansion": "100",
+            "costs": "440"
+        },
+        {
+            "caliberID": "20",
+            "ammoTypeID": "8",
+            "ammoRange": "50",
+            "penetration": "100",
+            "expansion": "23",
+            "costs": "770"
+        },
+        {
+            "caliberID": "21",
+            "ammoTypeID": "10",
+            "ammoRange": "25",
+            "penetration": "0",
+            "expansion": "0",
+            "costs": "180"
+        },
+        {
+            "caliberID": "21",
+            "ammoTypeID": "11",
+            "ammoRange": "25",
+            "penetration": "5",
+            "expansion": "0",
+            "costs": "530"
+        },
+        {
+            "caliberID": "21",
+            "ammoTypeID": "12",
+            "ammoRange": "50",
+            "penetration": "40",
+            "expansion": "19",
+            "costs": "880"
+        },
+        {
+            "caliberID": "22",
+            "ammoTypeID": "2",
+            "ammoRange": "150",
+            "penetration": "21",
+            "expansion": "60",
+            "costs": "720"
+        },
+        {
+            "caliberID": "22",
+            "ammoTypeID": "3",
+            "ammoRange": "150",
+            "penetration": "42",
+            "expansion": "14",
+            "costs": "950"
+        },
+        {
+            "caliberID": "23",
+            "ammoTypeID": "3",
+            "ammoRange": "150",
+            "penetration": "45",
+            "expansion": "16",
+            "costs": "1050"
+        },
+        {
+            "caliberID": "23",
+            "ammoTypeID": "6",
+            "ammoRange": "150",
+            "penetration": "22",
+            "expansion": "68",
+            "costs": "790"
+        },
+        {
+            "caliberID": "24",
+            "ammoTypeID": "13",
+            "ammoRange": "20",
+            "penetration": "90",
+            "expansion": "0",
+            "costs": "880"
+        },
+        {
+            "caliberID": "24",
+            "ammoTypeID": "14",
+            "ammoRange": "30",
+            "penetration": "90",
+            "expansion": "0",
+            "costs": "950"
+        },
+        {
+            "caliberID": "25",
+            "ammoTypeID": "2",
+            "ammoRange": "75",
+            "penetration": "25",
+            "expansion": "100",
+            "costs": "2000"
+        },
+        {
+            "caliberID": "25",
+            "ammoTypeID": "4",
+            "ammoRange": "75",
+            "penetration": "100",
+            "expansion": "23",
+            "costs": "2660"
+        },
+        {
+            "caliberID": "26",
+            "ammoTypeID": "666",
+            "ammoRange": "75",
+            "penetration": "100",
+            "expansion": "23",
+            "costs": "2660"
+        },
+        {
+            "caliberID": "26",
+            "ammoTypeID": "88",
+            "ammoRange": "75",
+            "penetration": "100",
+            "expansion": "23",
+            "costs": "2660",
+            "minClass": "3",
+            "maxClass": "7"
+        }
+    ],
+    "ammoType": [
+        {
+            "ammoTypeID": "14",
+            "ammoTypeName": "Bolzen"
+        },
+        {
+            "ammoTypeID": "7",
+            "ammoTypeName": "Flachkopfgeschoss"
+        },
+        {
+            "ammoTypeID": "12",
+            "ammoTypeName": "Flintenlaufgeschoss"
+        },
+        {
+            "ammoTypeID": "8",
+            "ammoTypeName": "Hardcast"
+        },
+        {
+            "ammoTypeID": "1",
+            "ammoTypeName": "Hohlspitzgeschoss"
+        },
+        {
+            "ammoTypeID": "13",
+            "ammoTypeName": "Pfeil"
+        },
+        {
+            "ammoTypeID": "3",
+            "ammoTypeName": "Polymerspitzengeschoss"
+        },
+        {
+            "ammoTypeID": "11",
+            "ammoTypeName": "Rehposten"
+        },
+        {
+            "ammoTypeID": "5",
+            "ammoTypeName": "Rundkopfgeschoss"
+        },
+        {
+            "ammoTypeID": "2",
+            "ammoTypeName": "Soft-Point-Geschoss"
+        },
+        {
+            "ammoTypeID": "6",
+            "ammoTypeName": "Teilmantelgeschoss"
+        },
+        {
+            "ammoTypeID": "10",
+            "ammoTypeName": "Vogelschrot"
+        },
+        {
+            "ammoTypeID": "9",
+            "ammoTypeName": "Vogelschrot Stahl"
+        },
+        {
+            "ammoTypeID": "4",
+            "ammoTypeName": "Vollmantelgeschoss"
+        },
+        {
+            "ammoTypeID": "88",
+            "ammoTypeName": "Rund"
+        },
+        {
+            "ammoTypeID": "666",
+            "ammoTypeName": "Minie"
+        }
+    ],
+    "animal": [
+        {
+            "animalID": "1",
+            "ID": "Mallard",
+            "animalName": "Stockente",
+            "maxLevel": "3",
+            "minTrophyRating": "1.0000",
+            "maxTrophyRating": "2.1000",
+            "diamondWeight": "1.9625",
+            "animalClass": "1"
+        },
+        {
+            "animalID": "2",
+            "ID": "Harlequin Duck",
+            "animalName": "Kragenente",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "1.9625",
+            "animalClass": "1"
+        },
+        {
+            "animalID": "3",
+            "ID": "Cinnamon Teal",
+            "animalName": "Zimtente",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "0.4620",
+            "animalClass": "1"
+        },
+        {
+            "animalID": "4",
+            "ID": "Jackrabbit",
+            "animalName": "Präriehase",
+            "maxLevel": "3",
+            "minTrophyRating": "1.0000",
+            "maxTrophyRating": "5.8000",
+            "diamondWeight": "5.3700",
+            "animalClass": "1"
+        },
+        {
+            "animalID": "5",
+            "ID": "Scrub Hare",
+            "animalName": "Buschhase",
+            "maxLevel": "3",
+            "minTrophyRating": "2.0000",
+            "maxTrophyRating": "6.8000",
+            "diamondWeight": "6.3400",
+            "animalClass": "1"
+        },
+        {
+            "animalID": "6",
+            "ID": "Red Fox",
+            "animalName": "Rotfuchs",
+            "maxLevel": "9",
+            "minTrophyRating": "2.0000",
+            "maxTrophyRating": "15.4000",
+            "diamondWeight": "14.0600",
+            "animalClass": "2"
+        },
+        {
+            "animalID": "7",
+            "ID": "Siberian Musk Deer",
+            "animalName": "Moschustier",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "276.0000",
+            "diamondWeight": "15.9800",
+            "animalClass": "2"
+        },
+        {
+            "animalID": "8",
+            "ID": "Canada Goose",
+            "animalName": "Kanadagans",
+            "maxLevel": "5",
+            "minTrophyRating": "3.0000",
+            "maxTrophyRating": "9.2000",
+            "diamondWeight": "8.6000",
+            "animalClass": "1"
+        },
+        {
+            "animalID": "9",
+            "ID": "Coyote",
+            "animalName": "Kojote",
+            "maxLevel": "9",
+            "minTrophyRating": "33.0000",
+            "maxTrophyRating": "59.0000",
+            "diamondWeight": "25.8000",
+            "animalClass": "2"
+        },
+        {
+            "animalID": "10",
+            "ID": "Eurasian Lynx",
+            "animalName": "Luchs",
+            "maxLevel": "9",
+            "minTrophyRating": "16.0000",
+            "maxTrophyRating": "29.0000",
+            "diamondWeight": "41.3000",
+            "animalClass": "3"
+        },
+        {
+            "animalID": "11",
+            "ID": "Side-Striped Jackal",
+            "animalName": "Streifenschakal",
+            "maxLevel": "9",
+            "minTrophyRating": "13.0000",
+            "maxTrophyRating": "30.9000",
+            "diamondWeight": "13.2000",
+            "animalClass": "2"
+        },
+        {
+            "animalID": "12",
+            "ID": "Roe Deer",
+            "animalName": "Reh",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "277.0000",
+            "diamondWeight": "33.2600",
+            "animalClass": "3"
+        },
+        {
+            "animalID": "13",
+            "ID": "Springbok",
+            "animalName": "Springbock",
+            "maxLevel": "5",
+            "minTrophyRating": "57.0000",
+            "maxTrophyRating": "116.0000",
+            "diamondWeight": "40.7500",
+            "animalClass": "3"
+        },
+        {
+            "animalID": "14",
+            "ID": "Blackbuck",
+            "animalName": "Hirschziegenantilope",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "47.0000",
+            "animalClass": "3"
+        },
+        {
+            "animalID": "15",
+            "ID": "Axis Deer",
+            "animalName": "Axishirsch",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "69.4200",
+            "animalClass": "3"
+        },
+        {
+            "animalID": "16",
+            "ID": "Fallow Deer",
+            "animalName": "Damhirsch",
+            "maxLevel": "5",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "237.0000",
+            "diamondWeight": "95.8800",
+            "animalClass": "4"
+        },
+        {
+            "animalID": "17",
+            "ID": "Blacktail Deer",
+            "animalName": "Schwarzwedelhirsch",
+            "maxLevel": "5",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "210.0000",
+            "diamondWeight": "89.5000",
+            "animalClass": "4"
+        },
+        {
+            "animalID": "18",
+            "ID": "Lesser Kudu",
+            "animalName": "Kleiner Kudu",
+            "maxLevel": "5",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "35.0000",
+            "diamondWeight": "98.0000",
+            "animalClass": "4"
+        },
+        {
+            "animalID": "19",
+            "ID": "Wild Boar",
+            "animalName": "Wildschwein",
+            "maxLevel": "5",
+            "minTrophyRating": "7.0000",
+            "maxTrophyRating": "159.0000",
+            "diamondWeight": "218.5000",
+            "animalClass": "4"
+        },
+        {
+            "animalID": "20",
+            "ID": "Warthog",
+            "animalName": "Warzenschwein",
+            "maxLevel": "5",
+            "minTrophyRating": "15.0000",
+            "maxTrophyRating": "63.0000",
+            "diamondWeight": "139.5000",
+            "animalClass": "4"
+        },
+        {
+            "animalID": "21",
+            "ID": "Whitetail Deer",
+            "animalName": "Weißwedelhirsch",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "213.0000",
+            "diamondWeight": "95.6400",
+            "animalClass": "4"
+        },
+        {
+            "animalID": "22",
+            "ID": "Reindeer",
+            "animalName": "Rentier",
+            "maxLevel": "5",
+            "minTrophyRating": "65.0000",
+            "maxTrophyRating": "904.0000",
+            "diamondWeight": "179.6600",
+            "animalClass": "6"
+        },
+        {
+            "animalID": "23",
+            "ID": "Caribou",
+            "animalName": "Karibu",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "186.0000",
+            "animalClass": "6"
+        },
+        {
+            "animalID": "24",
+            "ID": "Black Bear",
+            "animalName": "Schwarzbär",
+            "maxLevel": "9",
+            "minTrophyRating": "12.0000",
+            "maxTrophyRating": "24.0000",
+            "diamondWeight": "265.0000",
+            "animalClass": "7"
+        },
+        {
+            "animalID": "25",
+            "ID": "Gray Wolf",
+            "animalName": "Grauwolf",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "75.0000",
+            "animalClass": "5"
+        },
+        {
+            "animalID": "26",
+            "ID": "Puma",
+            "animalName": "Puma",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "97.4000",
+            "animalClass": "5"
+        },
+        {
+            "animalID": "27",
+            "ID": "Red Deer",
+            "animalName": "Rothirsch",
+            "maxLevel": "9",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "276.0000",
+            "diamondWeight": "232.0000",
+            "animalClass": "6"
+        },
+        {
+            "animalID": "28",
+            "ID": "Blue Wildebeest",
+            "animalName": "Streifengnu",
+            "maxLevel": "5",
+            "minTrophyRating": "17.0000",
+            "maxTrophyRating": "40.0000",
+            "diamondWeight": "272.0000",
+            "animalClass": "6"
+        },
+        {
+            "animalID": "29",
+            "ID": "Mule Deer",
+            "animalName": "Maultierhirsch",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "197.0000",
+            "animalClass": "6"
+        },
+        {
+            "animalID": "30",
+            "ID": "Gemsbok",
+            "animalName": "Spiessbock",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "238.3300",
+            "animalClass": "8"
+        },
+        {
+            "animalID": "31",
+            "ID": "Roosevelt Elk",
+            "animalName": "Roosevelt-Waipiti",
+            "maxLevel": "5",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "404.0000",
+            "diamondWeight": "479.3000",
+            "animalClass": "8"
+        },
+        {
+            "animalID": "32",
+            "ID": "Brown Bear",
+            "animalName": "Braunbär",
+            "maxLevel": "9",
+            "minTrophyRating": "16.0000",
+            "maxTrophyRating": "29.0000",
+            "diamondWeight": "444.8000",
+            "animalClass": "7"
+        },
+        {
+            "animalID": "33",
+            "ID": "Grizzly Bear",
+            "animalName": "Grizzlybär",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "628.4000",
+            "animalClass": "7"
+        },
+        {
+            "animalID": "34",
+            "ID": "Moose",
+            "animalName": "Elch",
+            "maxLevel": "5",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "245.0000",
+            "diamondWeight": "590.0000",
+            "animalClass": "8"
+        },
+        {
+            "animalID": "35",
+            "ID": "European Bison",
+            "animalName": "Wisent",
+            "maxLevel": "5",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "300.0000",
+            "diamondWeight": "868.0000",
+            "animalClass": "9"
+        },
+        {
+            "animalID": "36",
+            "ID": "Cape Buffalo",
+            "animalName": "Kaffernbüffel",
+            "maxLevel": "9",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "162.0000",
+            "diamondWeight": "895.0000",
+            "animalClass": "9"
+        },
+        {
+            "animalID": "37",
+            "ID": "Lion",
+            "animalName": "Löwe",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "256.5000",
+            "animalClass": "9"
+        },
+        {
+            "animalID": "38",
+            "ID": "Water Buffalo",
+            "animalName": "Wasserbüffel",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "1177.0000",
+            "animalClass": "9"
+        },
+        {
+            "animalID": "39",
+            "ID": "Plains Bison",
+            "animalName": "Präriebison",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "1115.0000",
+            "animalClass": "9"
+        },
+        {
+            "animalID": "40",
+            "ID": "Beceite Ibex",
+            "animalName": "Beceite Ibex",
+            "maxLevel": "0",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "110.0000",
+            "animalClass": "4"
+        },
+        {
+            "animalID": "41",
+            "ID": "Ronda Ibex",
+            "animalName": "Ronda Ibex",
+            "maxLevel": "5",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "70.0000",
+            "animalClass": "4"
+        },
+        {
+            "animalID": "42",
+            "ID": "Gredos Ibex",
+            "animalName": "Gredos Ibex",
+            "maxLevel": "5",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "102.0000",
+            "animalClass": "4"
+        },
+        {
+            "animalID": "43",
+            "ID": "Southeastern Spanish Ibex",
+            "animalName": "südöstlicher Ibex",
+            "maxLevel": "5",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "86.0000",
+            "animalClass": "4"
+        },
+        {
+            "animalID": "44",
+            "ID": "Iberian Mouflon",
+            "animalName": "Europäischer Mufflon",
+            "maxLevel": "5",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "60.0000",
+            "animalClass": "4"
+        },
+        {
+            "animalID": "45",
+            "ID": "Iberian Wolf",
+            "animalName": "Iberischer Wolf",
+            "maxLevel": "9",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "50.0000",
+            "animalClass": "5"
+        },
+        {
+            "animalID": "46",
+            "ID": "European Hare",
+            "animalName": "Feldhase",
+            "maxLevel": "3",
+            "minTrophyRating": "0.0000",
+            "maxTrophyRating": "0.0000",
+            "diamondWeight": "7.0000",
+            "animalClass": "1"
+        }
+    ],
+    "animalCaliber": [
+        {
+            "animalID": "1",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "1",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "2",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "2",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "3",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "3",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "4",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "4",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "5",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "5",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "6",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "6",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "6",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "6",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "6",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "7",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "7",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "7",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "7",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "7",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "8",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "8",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "8",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "8",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "8",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "9",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "9",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "9",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "9",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "9",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "9",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "9",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "9",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "9",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "9",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "10",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "10",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "10",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "10",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "10",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "10",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "10",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "10",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "10",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "10",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "11",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "11",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "11",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "11",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "11",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "11",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "11",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "11",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "11",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "11",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "12",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "12",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "12",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "12",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "12",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "12",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "12",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "12",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "12",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "12",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "13",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "13",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "13",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "13",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "13",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "13",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "13",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "13",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "13",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "13",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "14",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "14",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "14",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "14",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "14",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "14",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "14",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "14",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "14",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "14",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "15",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "15",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "15",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "15",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "15",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "15",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "15",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "15",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "15",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "15",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "16",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "16",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "16",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "16",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "16",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "16",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "16",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "16",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "16",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "16",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "17",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "17",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "17",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "17",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "17",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "17",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "17",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "17",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "17",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "17",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "17",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "18",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "19",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "20",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "21",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "22",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "23",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "24",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "25",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "26",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "27",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "28",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "29",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "22"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "23"
+        },
+        {
+            "animalID": "30",
+            "caliberID": "24"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "22"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "23"
+        },
+        {
+            "animalID": "31",
+            "caliberID": "24"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "22"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "23"
+        },
+        {
+            "animalID": "32",
+            "caliberID": "24"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "22"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "23"
+        },
+        {
+            "animalID": "33",
+            "caliberID": "24"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "22"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "23"
+        },
+        {
+            "animalID": "34",
+            "caliberID": "24"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "22"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "23"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "24"
+        },
+        {
+            "animalID": "35",
+            "caliberID": "25"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "22"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "23"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "24"
+        },
+        {
+            "animalID": "36",
+            "caliberID": "25"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "22"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "23"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "24"
+        },
+        {
+            "animalID": "37",
+            "caliberID": "25"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "22"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "23"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "24"
+        },
+        {
+            "animalID": "38",
+            "caliberID": "25"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "21"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "22"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "23"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "24"
+        },
+        {
+            "animalID": "39",
+            "caliberID": "25"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "40",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "41",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "42",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "43",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "44",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "2"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "3"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "4"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "5"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "6"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "7"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "8"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "9"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "10"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "11"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "12"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "13"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "14"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "15"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "16"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "17"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "18"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "19"
+        },
+        {
+            "animalID": "45",
+            "caliberID": "20"
+        },
+        {
+            "animalID": "46",
+            "caliberID": "1"
+        },
+        {
+            "animalID": "46",
+            "caliberID": "2"
+        }
+    ],
+    "animalCaller": [
+        {
+            "animalID": "1",
+            "callerID": "5"
+        },
+        {
+            "animalID": "3",
+            "callerID": "5"
+        },
+        {
+            "animalID": "6",
+            "callerID": "3"
+        },
+        {
+            "animalID": "8",
+            "callerID": "4"
+        },
+        {
+            "animalID": "9",
+            "callerID": "3"
+        },
+        {
+            "animalID": "10",
+            "callerID": "3"
+        },
+        {
+            "animalID": "11",
+            "callerID": "3"
+        },
+        {
+            "animalID": "12",
+            "callerID": "1"
+        },
+        {
+            "animalID": "13",
+            "callerID": "10"
+        },
+        {
+            "animalID": "14",
+            "callerID": "9"
+        },
+        {
+            "animalID": "15",
+            "callerID": "2"
+        },
+        {
+            "animalID": "16",
+            "callerID": "9"
+        },
+        {
+            "animalID": "17",
+            "callerID": "7"
+        },
+        {
+            "animalID": "17",
+            "callerID": "8"
+        },
+        {
+            "animalID": "18",
+            "callerID": "9"
+        },
+        {
+            "animalID": "18",
+            "callerID": "10"
+        },
+        {
+            "animalID": "19",
+            "callerID": "6"
+        },
+        {
+            "animalID": "20",
+            "callerID": "6"
+        },
+        {
+            "animalID": "21",
+            "callerID": "7"
+        },
+        {
+            "animalID": "21",
+            "callerID": "8"
+        },
+        {
+            "animalID": "21",
+            "callerID": "10"
+        },
+        {
+            "animalID": "22",
+            "callerID": "9"
+        },
+        {
+            "animalID": "23",
+            "callerID": "9"
+        },
+        {
+            "animalID": "24",
+            "callerID": "11"
+        },
+        {
+            "animalID": "25",
+            "callerID": "3"
+        },
+        {
+            "animalID": "25",
+            "callerID": "11"
+        },
+        {
+            "animalID": "26",
+            "callerID": "11"
+        },
+        {
+            "animalID": "27",
+            "callerID": "13"
+        },
+        {
+            "animalID": "28",
+            "callerID": "10"
+        },
+        {
+            "animalID": "29",
+            "callerID": "10"
+        },
+        {
+            "animalID": "30",
+            "callerID": "9"
+        },
+        {
+            "animalID": "31",
+            "callerID": "12"
+        },
+        {
+            "animalID": "32",
+            "callerID": "11"
+        },
+        {
+            "animalID": "33",
+            "callerID": "11"
+        },
+        {
+            "animalID": "34",
+            "callerID": "14"
+        },
+        {
+            "animalID": "37",
+            "callerID": "3"
+        },
+        {
+            "animalID": "37",
+            "callerID": "11"
+        },
+        {
+            "animalID": "45",
+            "callerID": "3"
+        },
+        {
+            "animalID": "45",
+            "callerID": "11"
+        }
+    ],
+    "animalMap": [
+        {
+            "animalID": "1",
+            "mapID": "1"
+        },
+        {
+            "animalID": "2",
+            "mapID": "6"
+        },
+        {
+            "animalID": "3",
+            "mapID": "5"
+        },
+        {
+            "animalID": "4",
+            "mapID": "1"
+        },
+        {
+            "animalID": "5",
+            "mapID": "4"
+        },
+        {
+            "animalID": "6",
+            "mapID": "2"
+        },
+        {
+            "animalID": "6",
+            "mapID": "6"
+        },
+        {
+            "animalID": "7",
+            "mapID": "3"
+        },
+        {
+            "animalID": "8",
+            "mapID": "2"
+        },
+        {
+            "animalID": "9",
+            "mapID": "1"
+        },
+        {
+            "animalID": "10",
+            "mapID": "3"
+        },
+        {
+            "animalID": "11",
+            "mapID": "4"
+        },
+        {
+            "animalID": "12",
+            "mapID": "2"
+        },
+        {
+            "animalID": "12",
+            "mapID": "13"
+        },
+        {
+            "animalID": "13",
+            "mapID": "4"
+        },
+        {
+            "animalID": "14",
+            "mapID": "5"
+        },
+        {
+            "animalID": "15",
+            "mapID": "5"
+        },
+        {
+            "animalID": "16",
+            "mapID": "2"
+        },
+        {
+            "animalID": "17",
+            "mapID": "1"
+        },
+        {
+            "animalID": "18",
+            "mapID": "4"
+        },
+        {
+            "animalID": "19",
+            "mapID": "2"
+        },
+        {
+            "animalID": "19",
+            "mapID": "3"
+        },
+        {
+            "animalID": "19",
+            "mapID": "13"
+        },
+        {
+            "animalID": "20",
+            "mapID": "4"
+        },
+        {
+            "animalID": "21",
+            "mapID": "1"
+        },
+        {
+            "animalID": "22",
+            "mapID": "3"
+        },
+        {
+            "animalID": "23",
+            "mapID": "6"
+        },
+        {
+            "animalID": "24",
+            "mapID": "1"
+        },
+        {
+            "animalID": "24",
+            "mapID": "14"
+        },
+        {
+            "animalID": "25",
+            "mapID": "6"
+        },
+        {
+            "animalID": "26",
+            "mapID": "5"
+        },
+        {
+            "animalID": "27",
+            "mapID": "2"
+        },
+        {
+            "animalID": "27",
+            "mapID": "5"
+        },
+        {
+            "animalID": "27",
+            "mapID": "13"
+        },
+        {
+            "animalID": "28",
+            "mapID": "4"
+        },
+        {
+            "animalID": "29",
+            "mapID": "5"
+        },
+        {
+            "animalID": "29",
+            "mapID": "14"
+        },
+        {
+            "animalID": "30",
+            "mapID": "4"
+        },
+        {
+            "animalID": "31",
+            "mapID": "1"
+        },
+        {
+            "animalID": "31",
+            "mapID": "14"
+        },
+        {
+            "animalID": "32",
+            "mapID": "3"
+        },
+        {
+            "animalID": "33",
+            "mapID": "6"
+        },
+        {
+            "animalID": "34",
+            "mapID": "1"
+        },
+        {
+            "animalID": "34",
+            "mapID": "3"
+        },
+        {
+            "animalID": "34",
+            "mapID": "6"
+        },
+        {
+            "animalID": "35",
+            "mapID": "2"
+        },
+        {
+            "animalID": "36",
+            "mapID": "4"
+        },
+        {
+            "animalID": "37",
+            "mapID": "4"
+        },
+        {
+            "animalID": "38",
+            "mapID": "5"
+        },
+        {
+            "animalID": "39",
+            "mapID": "6"
+        },
+        {
+            "animalID": "39",
+            "mapID": "14"
+        },
+        {
+            "animalID": "40",
+            "mapID": "13"
+        },
+        {
+            "animalID": "41",
+            "mapID": "13"
+        },
+        {
+            "animalID": "42",
+            "mapID": "13"
+        },
+        {
+            "animalID": "43",
+            "mapID": "13"
+        },
+        {
+            "animalID": "44",
+            "mapID": "13"
+        },
+        {
+            "animalID": "45",
+            "mapID": "13"
+        },
+        {
+            "animalID": "46",
+            "mapID": "13"
+        }
+    ],
+    "caliber": [
+        {
+            "caliberID": "1",
+            "weaponTypeID": "2",
+            "caliberName": ".22LR",
+            "minClass": "1",
+            "maxClass": "1"
+        },
+        {
+            "caliberID": "2",
+            "weaponTypeID": "4",
+            "caliberName": "300 g",
+            "minClass": "1",
+            "maxClass": "2"
+        },
+        {
+            "caliberID": "3",
+            "weaponTypeID": "2",
+            "caliberName": ".223",
+            "minClass": "2",
+            "maxClass": "4"
+        },
+        {
+            "caliberID": "4",
+            "weaponTypeID": "1",
+            "caliberName": ".357",
+            "minClass": "2",
+            "maxClass": "6"
+        },
+        {
+            "caliberID": "5",
+            "weaponTypeID": "1",
+            "caliberName": ".45",
+            "minClass": "1",
+            "maxClass": "5"
+        },
+        {
+            "caliberID": "6",
+            "weaponTypeID": "2",
+            "caliberName": ".45-Luft",
+            "minClass": "2",
+            "maxClass": "4"
+        },
+        {
+            "caliberID": "7",
+            "weaponTypeID": "2",
+            "caliberName": ".243",
+            "minClass": "2",
+            "maxClass": "6"
+        },
+        {
+            "caliberID": "8",
+            "weaponTypeID": "2",
+            "caliberName": ".30-30",
+            "minClass": "2",
+            "maxClass": "6"
+        },
+        {
+            "caliberID": "9",
+            "weaponTypeID": "2",
+            "caliberName": "7.62X54R",
+            "minClass": "3",
+            "maxClass": "7"
+        },
+        {
+            "caliberID": "10",
+            "weaponTypeID": "4",
+            "caliberName": "420 g",
+            "minClass": "2",
+            "maxClass": "7"
+        },
+        {
+            "caliberID": "11",
+            "weaponTypeID": "1",
+            "caliberName": ".44",
+            "minClass": "3",
+            "maxClass": "8"
+        },
+        {
+            "caliberID": "12",
+            "weaponTypeID": "3",
+            "caliberName": "20GA",
+            "minClass": "1",
+            "maxClass": "7"
+        },
+        {
+            "caliberID": "13",
+            "weaponTypeID": "3",
+            "caliberName": "16GA",
+            "minClass": "1",
+            "maxClass": "7"
+        },
+        {
+            "caliberID": "14",
+            "weaponTypeID": "4",
+            "caliberName": "540 g",
+            "minClass": "4",
+            "maxClass": "8"
+        },
+        {
+            "caliberID": "15",
+            "weaponTypeID": "2",
+            "caliberName": ".45-70",
+            "minClass": "4",
+            "maxClass": "9"
+        },
+        {
+            "caliberID": "16",
+            "weaponTypeID": "2",
+            "caliberName": ".270",
+            "minClass": "4",
+            "maxClass": "8"
+        },
+        {
+            "caliberID": "17",
+            "weaponTypeID": "2",
+            "caliberName": ".30-06",
+            "minClass": "4",
+            "maxClass": "8"
+        },
+        {
+            "caliberID": "18",
+            "weaponTypeID": "2",
+            "caliberName": "7 mm",
+            "minClass": "4",
+            "maxClass": "9"
+        },
+        {
+            "caliberID": "19",
+            "weaponTypeID": "2",
+            "caliberName": "9.3X74R",
+            "minClass": "5",
+            "maxClass": "9"
+        },
+        {
+            "caliberID": "20",
+            "weaponTypeID": "1",
+            "caliberName": ".454",
+            "minClass": "4",
+            "maxClass": "9"
+        },
+        {
+            "caliberID": "21",
+            "weaponTypeID": "3",
+            "caliberName": "12GA",
+            "minClass": "1",
+            "maxClass": "8"
+        },
+        {
+            "caliberID": "22",
+            "weaponTypeID": "2",
+            "caliberName": ".300",
+            "minClass": "7",
+            "maxClass": "9"
+        },
+        {
+            "caliberID": "23",
+            "weaponTypeID": "2",
+            "caliberName": ".338",
+            "minClass": "7",
+            "maxClass": "9"
+        },
+        {
+            "caliberID": "24",
+            "weaponTypeID": "4",
+            "caliberName": "600 g",
+            "minClass": "7",
+            "maxClass": "9"
+        },
+        {
+            "caliberID": "25",
+            "weaponTypeID": "2",
+            "caliberName": ".470",
+            "minClass": "9",
+            "maxClass": "9"
+        },
+        {
+            "caliberID": "26",
+            "weaponTypeID": "2",
+            "caliberName": ".50",
+            "minClass": "4",
+            "maxClass": "8"
+        }
+    ],
+    "caller": [
+        {
+            "callerID": "1",
+            "callerName": "Rehwild-L.",
+            "callerRange": "200",
+            "duration": "90",
+            "strength": "40"
+        },
+        {
+            "callerID": "2",
+            "callerName": "Axishirsch-R. \"Schrei\"",
+            "callerRange": "200",
+            "duration": "90",
+            "strength": "40"
+        },
+        {
+            "callerID": "3",
+            "callerName": "Räuberl. \"Hase\"",
+            "callerRange": "200",
+            "duration": "90",
+            "strength": "40"
+        },
+        {
+            "callerID": "4",
+            "callerName": "Kanadagans-L.",
+            "callerRange": "500",
+            "duration": "90",
+            "strength": "40"
+        },
+        {
+            "callerID": "5",
+            "callerName": "Enten-L.",
+            "callerRange": "500",
+            "duration": "25",
+            "strength": "40"
+        },
+        {
+            "callerID": "6",
+            "callerName": "Wildschwein-L.",
+            "callerRange": "200",
+            "duration": "90",
+            "strength": "40"
+        },
+        {
+            "callerID": "7",
+            "callerName": "Blöker",
+            "callerRange": "150",
+            "duration": "90",
+            "strength": "50"
+        },
+        {
+            "callerID": "8",
+            "callerName": "Grunz-L. Hirsch",
+            "callerRange": "250",
+            "duration": "90",
+            "strength": "25"
+        },
+        {
+            "callerID": "9",
+            "callerName": "Geweihrassel",
+            "callerRange": "200",
+            "duration": "90",
+            "strength": "40"
+        },
+        {
+            "callerID": "10",
+            "callerName": "Bock-L. Schnauben",
+            "callerRange": "200",
+            "duration": "90",
+            "strength": "40"
+        },
+        {
+            "callerID": "11",
+            "callerName": "Räuberl. Kitz",
+            "callerRange": "200",
+            "duration": "90",
+            "strength": "40"
+        },
+        {
+            "callerID": "12",
+            "callerName": "Waipiti",
+            "callerRange": "200",
+            "duration": "90",
+            "strength": "40"
+        },
+        {
+            "callerID": "13",
+            "callerName": "Rothirsch",
+            "callerRange": "200",
+            "duration": "90",
+            "strength": "40"
+        },
+        {
+            "callerID": "14",
+            "callerName": "Elch",
+            "callerRange": "200",
+            "duration": "90",
+            "strength": "40"
+        }
+    ],
+    "map": [
+        {
+            "mapID": "13",
+            "mapName": "Cuatro Colinas"
+        },
+        {
+            "mapID": "2",
+            "mapName": "Hirschfelden"
+        },
+        {
+            "mapID": "1",
+            "mapName": "Layton Lake"
+        },
+        {
+            "mapID": "3",
+            "mapName": "Medved Taiga"
+        },
+        {
+            "mapID": "5",
+            "mapName": "Parque Fernando"
+        },
+        {
+            "mapID": "14",
+            "mapName": "Silver Ridge Peaks"
+        },
+        {
+            "mapID": "4",
+            "mapName": "Vurhonga Savanna"
+        },
+        {
+            "mapID": "6",
+            "mapName": "Yukon Valley"
+        }
+    ],
+    "weaponType": [
+        {
+            "weaponTypeID": "1",
+            "weaponTypeName": "Pistole"
+        },
+        {
+            "weaponTypeID": "2",
+            "weaponTypeName": "Gewehr"
+        },
+        {
+            "weaponTypeID": "3",
+            "weaponTypeName": "Flinte"
+        },
+        {
+            "weaponTypeID": "4",
+            "weaponTypeName": "Bogen"
+        }
+    ]
+}

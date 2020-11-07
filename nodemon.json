@@ -1,7 +1,7 @@
 {
     "watch": [
-        "src",
-        "com"
+        "src/backend",
+        "src/shared"
     ],
     "ext": "ts,ejs,js",
     "ignore": [
@@ -13,5 +13,5 @@
     "execMap": {
         "ts": "ts-node"
     },
-    "exec": "npm-run-all build start"
+    "exec": "npm run ts-node"
 }

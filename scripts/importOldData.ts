@@ -41,15 +41,15 @@ database.caliber.forEach((caliber: any) => {
         if (ammo.caliberID == caliber.caliberID) {
             let tmpAmmo: Ammo = {
                 ammoType: "",
-                ammoRange: ammo.ammoRange,
-                minClass: caliber.minClass,
-                maxClass: caliber.maxClass,
-                penetration: ammo.penetration,
-                expansion: ammo.expansion,
-                costs: ammo.costs
+                ammoRange: parseInt(ammo.ammoRange),
+                minClass: parseInt(caliber.minClass),
+                maxClass: parseInt(caliber.maxClass),
+                penetration: parseInt(ammo.penetration),
+                expansion: parseInt(ammo.expansion),
+                costs: parseInt(ammo.costs)
             }
-            if (ammo.minClass) tmpAmmo.minClass = ammo.minClass;
-            if (ammo.maxClass) tmpAmmo.maxClass = ammo.maxClass;
+            if (ammo.minClass) tmpAmmo.minClass =parseInt( ammo.minClass);
+            if (ammo.maxClass) tmpAmmo.maxClass =parseInt( ammo.maxClass);
 
             database.ammoType.forEach((type: any) => {
                 if (ammo.ammoTypeID == type.ammoTypeID) {

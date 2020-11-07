@@ -1,30 +1,52 @@
 import dotenv from "dotenv";
-import path from "path";
 import express from "express";
-import bodyParser from "body-parser";
-import Database from "./Database"
+import Database from "./Database";
+import cors from "cors";
 
-class Api {
+export default class Api {
     public express: express.Application;
     private db: Database;
     constructor() {
         dotenv.config();
-        this.db = Database.getInstance();
+        const port = process.env.SERVER_PORT;
         this.express = express();
+        this.db = Database.getInstance();
+        this.express.set("port", process.env.port || port);
+        
         this.middleware();
         this.routes();
+        this.express.listen(port, () => {
+            console.log(`Server running on port: ${port}`);
+          });                               
     }
     private middleware(): void {
-        this.express.use(bodyParser.json());
-        this.express.use(bodyParser.urlencoded({ extended: false }));
+        this.express.use(cors());
+        this.express.use(express.json());
+        this.express.use(express.urlencoded({ extended: false }));
     }
     private routes(): void {
-        this.express.get("/animals", (req, res) => {
+        
+        this.express.get("/api/animals", (req, res) => {
             this.db.getAnimals()
                 .then((animals) => { res.json(animals) })
                 .catch(console.log);
         });
+        this.express.get("/api/calibers", (req, res) => {
+            this.db.getCalibers()
+                .then((calibers) =>{ res.json(calibers) })
+                .catch(console.log);
+        });
+        this.express.get("/api/maps", (req, res) => {
+            this.db.getMaps()
+                .then((maps) =>{ res.json(maps) })
+                .catch(console.log);
+        });
+        this.express.get("/api/callers", (req, res) => {
+            this.db.getMaps()
+                .then((callers) =>{ res.json(callers) })
+                .catch(console.log);
+        });
+        
+        this.express.use(express.static("./dist/frontend/"));
     }
 }
-
-export default new Api().express;
