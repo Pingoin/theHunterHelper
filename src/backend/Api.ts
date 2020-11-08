@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import express from "express";
 import Database from "./Database";
 import cors from "cors";
+import Caliber from "../shared/caliber"
 
 export default class Api {
     public express: express.Application;
@@ -36,6 +37,17 @@ export default class Api {
                 .then((calibers) =>{ res.json(calibers) })
                 .catch(console.log);
         });
+        this.express.put("/api/calibers/:caliberID",(req,res)=>{
+            let caliber:Caliber =JSON.parse(req.query.caliber as string);
+            this.db.pushCaliber(caliber).catch(console.log);
+            console.log(caliber);
+            res.send("Penis");
+        });
+
+
+
+
+
         this.express.get("/api/maps", (req, res) => {
             this.db.getMaps()
                 .then((maps) =>{ res.json(maps) })

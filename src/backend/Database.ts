@@ -14,9 +14,9 @@ import Caller from "../shared/caller";
 export default class Database {
   private static instance: Database;
   private animals!: lokijs.Collection<animal>;
-  private maps!:lokijs.Collection<Map>;
-  private calibers!:lokijs.Collection<Caliber>;
-  private callers!:lokijs.Collection<Caller>;
+  private maps!: lokijs.Collection<Map>;
+  private calibers!: lokijs.Collection<Caliber>;
+  private callers!: lokijs.Collection<Caller>;
   public static getInstance(): Database {
     if (!Database.instance) {
       Database.instance = new Database();
@@ -36,32 +36,32 @@ export default class Database {
   private databaseInitialize() {
 
     this.animals = this.db.getCollection<animal>("animals");
-    this.maps=this.db.getCollection<Map>("maps");
-    this.calibers=this.db.getCollection<Caliber>("calibers");
-    this.callers=this.db.getCollection<Caller>("callers");
+    this.maps = this.db.getCollection<Map>("maps");
+    this.calibers = this.db.getCollection<Caliber>("calibers");
+    this.callers = this.db.getCollection<Caller>("callers");
 
     if (this.animals === null) {
-      this.animals = this.db.addCollection("animals");
+      this.animals = this.db.addCollection("animals", { unique: ["animalID"] });
       this.animals.insert(imports.animals);
     } else {
       console.log("Animals found");
     }
 
     if (this.maps === null) {
-      this.maps = this.db.addCollection("maps");
+      this.maps = this.db.addCollection("maps", { unique: ["mapName"] });
       this.maps.insert(imports.maps);
     } else {
       console.log("Maps found");
     }
 
     if (this.calibers === null) {
-      this.calibers = this.db.addCollection("calibers");
-      let tmpCalibers=new Array<Caliber>();
-      imports.calibers.forEach((caliber)=>{
-        const tmpCaliber:Caliber={
+      this.calibers = this.db.addCollection("calibers", { unique: ["caliberID"] });
+      let tmpCalibers = new Array<Caliber>();
+      imports.calibers.forEach((caliber) => {
+        const tmpCaliber: Caliber = {
           caliberID: caliber.caliberID,
           ammos: caliber.ammos,
-          weaponType:caliber.weaponType as WeaponType
+          weaponType: caliber.weaponType as WeaponType
         }
         tmpCalibers.push(tmpCaliber);
       })
@@ -71,12 +71,12 @@ export default class Database {
     }
 
     if (this.callers === null) {
-      this.callers = this.db.addCollection("callers");
+      this.callers = this.db.addCollection("callers", { unique: ["callerID"] });
       this.callers.insert(imports.callers);
     } else {
       console.log("Callers found");
     }
-  } 
+  }
 
   public async getAnimals(mapID = "", animalID = ""): Promise<animal[]> {
     return new Promise<animal[]>((resolve, reject) => {
@@ -103,6 +103,20 @@ export default class Database {
     return new Promise<Caller[]>((resolve, reject) => {
       let request: any = {};
       resolve(this.callers.find(request));
+    });
+  }
+
+  public async pushCaliber(caliber: Caliber): Promise<void> {
+    return new Promise<void>((resolve, reject) => {
+      console.log(this.calibers.by("caliberID", caliber.caliberID));
+      if (this.calibers.by("caliberID", caliber.caliberID) == null) {
+        this.calibers.insertOne(caliber);
+        console.log("neu");
+      } else {
+        console.log("update");
+        this.calibers.update(caliber);
+      }
+      resolve();
     });
   }
 }
