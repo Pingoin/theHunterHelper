@@ -28,7 +28,13 @@ export default class Api {
     private routes(): void {
         
         this.express.get("/api/animals", (req, res) => {
-            this.db.getAnimals()
+            let mapID="";
+            console.log(req.query);
+            if (req.query.mapID){
+                mapID=req.query.mapID.toString();
+                console.log(mapID);
+            }
+            this.db.getAnimals(mapID)
                 .then((animals) => { res.json(animals) })
                 .catch(console.log);
         });

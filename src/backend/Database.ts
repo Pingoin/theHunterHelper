@@ -81,10 +81,10 @@ export default class Database {
   public async getAnimals(mapID = "", animalID = ""): Promise<animal[]> {
     return new Promise<animal[]>((resolve, reject) => {
       let request: any = {};
-      if (animalID != "") {
-        request = { animalID: animalID };
+      if (mapID != "") {
+        request = {maps:{$contains:mapID}};
       }
-      resolve(this.animals.find(request));
+      resolve(this.animals.chain().find(request).simplesort("diamondWeight").simplesort("animalClass").data());
     });
   }
   public async getCalibers(): Promise<Caliber[]> {

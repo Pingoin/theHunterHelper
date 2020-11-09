@@ -37,7 +37,14 @@
             </ul>
         </div>
     </nav>
-    <router-view />
+
+    <div class="jumbotron text-center" style="margin-bottom: 0">
+        <div class="container" style="margin-top: 30px">
+            <div class="row">
+                <router-view />
+            </div>
+        </div>
+    </div>
 </div>
 </template>
 

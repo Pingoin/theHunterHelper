@@ -5,18 +5,35 @@
     <table class="table table-striped table-hover">
         <thead>
             <tr>
-                <th scope="col">Nr<span class="arrow"></span></th>
-                <th scope="col">Doku<span class="arrow"></span></th>
-                <th scope="col">Ordner<span class="arrow"></span></th>
-                <th scope="col">Datum<span class="arrow"></span></th>
+                <th scope="col">Originalname<span class="arrow"></span></th>
+                <th scope="col">Name<span class="arrow"></span></th>
+                <th scope="col">Max Level<span class="arrow"></span></th>
+                <th scope="col">min/max Trophäenwertung<span class="arrow"></span></th>
+                <th scope="col">Diamandgewicht<span class="arrow"></span></th>
+                <th scope="col">Klasse<span class="arrow"></span></th>
+                <th scope="col">Karten<span class="arrow"></span></th>
+                <th scope="col">Lockrufer<span class="arrow"></span></th>
             </tr>
         </thead>
         <tbody>
             <tr v-for="animal in animals" v-bind:key="animal.animalID">
+                <td>{{animal.animalID}}</td>
                 <td>{{animal.animalName}}</td>
                 <td>{{animal.maxLevel}}</td>
+                <td>{{animal.minTrophyRating}}/{{animal.maxTrophyRating}}</td>
                 <td>{{animal.diamondWeight}}</td>
                 <td>{{animal.animalClass}}</td>
+
+                <td>
+                    <ul>
+                        <li v-for="map in animal.maps" :key="map">{{map}}</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li v-for="caller in animal.caller" :key="caller">{{caller}}</li>
+                    </ul>
+                </td>
             </tr>
         </tbody>
     </table>
