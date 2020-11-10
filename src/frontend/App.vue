@@ -14,6 +14,9 @@
                     <router-link to="/maps" class="nav-link">Karten</router-link>
                 </li>
                 <li class="nav-item">
+                    <router-link to="/overview" class="nav-link">Übersicht</router-link>
+                </li>
+                <li class="nav-item">
                     <router-link to="/callers" class="nav-link">Rufer</router-link>
                 </li>
                 <li class="nav-item">

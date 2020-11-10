@@ -27,6 +27,22 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Caliber.vue')
   },
   {
+    path: '/overview',
+    name: 'Übersicht',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Overview.vue')
+  },
+  {
+    path: '/overview/:map',
+    name: 'Übersicht',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Overview.vue')
+  },
+  {
     path: '/callers',
     name: 'Callers',
     // route level code-splitting
