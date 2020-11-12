@@ -93,6 +93,13 @@ export default class Database {
       resolve(this.calibers.find(request));
     });
   }
+
+  public async getCaliber(caliber:string): Promise<Caliber> {
+    return new Promise<Caliber>((resolve, reject) => {
+      resolve(this.calibers.by("caliberID",caliber));
+    });
+  }
+
   public async getMaps(): Promise<Map[]> {
     return new Promise<Map[]>((resolve, reject) => {
       let request: any = {};

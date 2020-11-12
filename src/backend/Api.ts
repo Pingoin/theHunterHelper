@@ -43,6 +43,12 @@ export default class Api {
                 .then((calibers) =>{ res.json(calibers) })
                 .catch(console.log);
         });
+        this.express.get("/api/calibers/:caliberID", (req, res) => {
+            console.log(req.params.caliberID);
+            this.db.getCaliber(req.params.caliberID.replace("_"," "))
+                .then((calibers) =>{ res.json(calibers) })
+                .catch(console.log);
+        });
         this.express.put("/api/calibers/:caliberID",(req,res)=>{
             let caliber:Caliber =JSON.parse(req.query.caliber as string);
             this.db.pushCaliber(caliber).catch(console.log);

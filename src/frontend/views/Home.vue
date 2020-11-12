@@ -1,29 +1,68 @@
 <template>
 <div class="home col-xl-12">
-    <select @change="getAnimals($event.target.value)">
-        <option v-for="map in maps" :key="map.mapName">{{map.mapName}}</option>
-    </select>
-    <table class="table table-striped table-hover table-header-rotated">
-        <thead>
-            <tr>
-                <th scope="col" class="calibers">Kaliber<span class="arrow"></span></th>
-                <th scope="col" v-for="animal in animals" :key="animal.animalID">
-                    {{ animal.animalName }} <span class="arrow"></span>
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <template v-for="caliber in calibers">
-                <tr :key="caliber.caliberID">
-                    <td :colspan="animals.length+1">{{ caliber.caliberID }}</td>
-                </tr>
-                <tr v-for="ammo in caliber.ammos" :key="caliber.caliberID+ammo.ammoType">
-                    <td>{{ammo.ammoType}}</td>
-                    <td scope="col" v-for="animal in animals" :key="animal.animalID" :class="((ammo.minClass<=animal.animalClass)&&(ammo.maxClass>=animal.animalClass))?'true':'false'">{{ammo.minClass}}-{{ammo.maxClass}}/{{animal.animalClass}}</td>
-                </tr>
-            </template>
-        </tbody>
-    </table>
+    <form id="app" @submit="checkForm">
+
+        <p v-if="errors.length">
+            <b>Please correct the following error(s):</b>
+        <ul>
+            <li v-for="error in errors" :key="error">{{ error }}</li>
+        </ul>
+        </p>
+
+        <p>
+            <label for="caliberID">Kaliberbezeichnung</label>
+            <input id="caliberID" v-model="caliber.caliberID" type="text" name="caliberID">
+        </p>
+
+        <p>
+            <label for="weaponType">Waffentyp</label>
+            <select id="weaponType" v-model="caliber.weaponType" name="weaponType">
+                <option>Gewehr</option>
+                <option>Pistole</option>
+                <option>Gewehr</option>
+                <option>Bogen</option>
+            </select>
+        </p>
+
+        <template v-for="ammo in caliber.ammos">
+            <div :key="caliber.caliberID+ammo.ammoType">
+                <hr />
+                <p>
+                    <label for="ammoType">Munitionstyp</label>
+                    <input id="ammoType" v-model="ammo.ammoType" type="text" name="ammoType">
+                </p>
+                <p>
+                    <label for="ammoRange">effektive Reichweite</label>
+                    <input id="ammoRange" v-model="ammo.ammoRange" type="number" name="ammoRange" min="0">
+                </p>
+                <p>
+                    <label for="minClass">Minimale Klasse</label>
+                    <input id="minClass" v-model="ammo.minClass" type="number" name="minClass" min="0">
+                </p>
+                <p>
+                    <label for="maxClass">Maximale Klasse</label>
+                    <input id="maxClass" v-model="ammo.maxClass" type="number" name="maxClass" min="0">
+                </p>
+                <p>
+                    <label for="penetration">Durchschlagskraft</label>
+                    <input id="penetration" v-model="ammo.penetration" type="number" name="penetration" min="0">
+                </p>
+                <p>
+                    <label for="expansion">Aufpilzung</label>
+                    <input id="expansion" v-model="ammo.expansion" type="number" name="expansion" min="0">
+                </p>
+                <p>
+                    <label for="costs">Kosten</label>
+                    <input id="costs" v-model="ammo.costs" type="number" name="costs" min="0">
+                </p>
+            </div>
+        </template>
+
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+
+    </form>
 </div>
 </template>
 
@@ -34,43 +73,45 @@ import {
 } from "vue-property-decorator";
 import axios from "axios";
 import animal from "../../shared/animal";
-import Caliber from "../../shared/caliber";
+import Caliber, {
+    WeaponType
+} from "../../shared/caliber";
 import Map from "../../shared/map";
 
 @Component
 export default class Home extends Vue {
-    private animals = new Array < animal > ();
-    private calibers = new Array < Caliber > ();
-    private maps = new Array < Map > ();
-    private components = {};
-    private getAnimals(map: string) {
-        axios
-            .get < animal[] > ("/api/animals", {
-                params: {
-                    mapID: map
-                }
-            })
-            .then((response) => {
-                this.animals = response.data;
-            })
-            .catch(console.log);
-    }
+    private errors: string[] = [];
+    private name: string = "";
+    private age: number = 0;
+    private movie: string = "";
+    private caliber: Caliber = {
+        caliberID: "",
+        ammos: [],
+        weaponType: WeaponType.Gewehr,
+    };
     mounted() {
-        this.getAnimals("");
         axios
-            .get < Caliber[] > ("/api/calibers")
+            .get < Caliber > ("/api/calibers/.50")
             .then((response) => {
-                this.calibers = response.data;
+                this.caliber = response.data;
             })
             .catch(console.log);
-        axios
-            .get < Map[] > ("/api/maps")
-            .then((response) => {
-                this.maps = response.data;
-            });
     }
-    private onChange(event: any) {
-        console.log(event.target.value)
+    private checkForm(e: unknown) {
+        if (this.name && this.age) {
+            return true;
+        }
+
+        this.errors = [];
+
+        if (!this.name) {
+            this.errors.push("Name required.");
+        }
+        if (!this.age) {
+            this.errors.push("Age required.");
+        }
+
+        //e.preventDefault();
     }
 }
 </script>
