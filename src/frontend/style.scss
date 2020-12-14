@@ -1,12 +1,12 @@
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 @import "node_modules/bootstrap-vue/src/index.scss";
 
-#nav {
+#nav-collapse {
   padding: 30px;
-  a {
+  li {
     font-weight: bold;
     color: #aaaaaa;
-    &.router-link-exact-active {
+    .router-link-active {
       color: #42b983;
     }
   }
