@@ -1,6 +1,9 @@
 <template>
 <div class="home col-xl-12">
-    <form id="app" @submit="checkForm">
+  <form id="app"
+    @submit="checkForm"
+    action="https://vuejs.org/"
+    method="post">
 
         <p v-if="errors.length">
             <b>Please correct the following error(s):</b>
@@ -59,7 +62,7 @@
             </div>
         </template>
         <p><button type="button" v-on:click="addAmmo()">Neue Munition</button></p>
-        <p><button type="button" v-on:click="send()">abschicken</button></p>
+        <input type="submit" value="Senden">
     </form>
 </div>
 </template>
@@ -70,12 +73,12 @@ import axios from "axios";
 import animal from "../../shared/animal";
 import Caliber, { WeaponType, Ammo } from "../../shared/caliber";
 import Map from "../../shared/map";
+import router from "../router";
 
 @Component
-export default class Home extends Vue {
+export default class EditCaliber extends Vue {
   private errors: string[] = [];
-  private name: string = "";
-  private age: number = 0;
+  private caliberID: string = "";
   private movie: string = "";
   private isEditing: boolean = false;
   private caliber: Caliber = {
@@ -85,18 +88,27 @@ export default class Home extends Vue {
   };
 
   mounted() {
-    axios
-      .get<Caliber>("/api/calibers/.50")
-      .then((response) => {
-        this.caliber = response.data;
-      })
-      .catch(console.log);
-  }
-  private send(){
-      alert(JSON.stringify(this.caliber));
+    this.fetchData();
   }
   private removeAmmo(ammo: Ammo) {
     this.caliber.ammos.splice(this.caliber.ammos.indexOf(ammo), 1);
+  }
+  public fetchData() {
+    if (this.$route.params.caliber) {
+      this.caliberID = this.$route.params.caliber.replaceAll("_", " ");
+      axios
+        .get<Caliber>("/api/calibers/" + this.caliberID)
+        .then((response) => {
+          this.caliber = response.data;
+        })
+        .catch(console.log);
+    } else {
+      this.caliber = {
+        caliberID: "Wumme",
+        ammos: [],
+        weaponType: WeaponType.Gewehr,
+      };
+    }
   }
   private addAmmo() {
     this.caliber.ammos.push({
@@ -109,21 +121,14 @@ export default class Home extends Vue {
       costs: 0,
     });
   }
-  private checkForm(e: unknown) {
-    if (this.name && this.age) {
-      return true;
-    }
-
+  private checkForm(e: Event) {
     this.errors = [];
-
-    if (!this.name) {
-      this.errors.push("Name required.");
+    e.preventDefault();
+    if (this.errors.length == 0) {
+      axios.post<void>("/api/modcaliber", this.caliber).then(()=>{
+        router.push("/calibers");
+      }).catch(console.log);
     }
-    if (!this.age) {
-      this.errors.push("Age required.");
-    }
-
-    //e.preventDefault();
   }
 }
 </script>

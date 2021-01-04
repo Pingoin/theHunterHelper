@@ -56,15 +56,15 @@ export default class Database {
 
     if (this.calibers === null) {
       this.calibers = this.db.addCollection("calibers", { unique: ["caliberID"] });
-      let tmpCalibers = new Array<Caliber>();
+      const tmpCalibers = new Array<Caliber>();
       imports.calibers.forEach((caliber) => {
         const tmpCaliber: Caliber = {
           caliberID: caliber.caliberID,
           ammos: caliber.ammos,
           weaponType: caliber.weaponType as WeaponType
-        }
+        };
         tmpCalibers.push(tmpCaliber);
-      })
+      });
       this.calibers.insert(tmpCalibers);
     } else {
       console.log("Calibers found");
@@ -82,33 +82,37 @@ export default class Database {
     return new Promise<animal[]>((resolve, reject) => {
       let request: any = {};
       if (mapID != "") {
-        request = {maps:{$contains:mapID}};
+        request = { maps: { $contains: mapID } };
       }
       resolve(this.animals.chain().find(request).simplesort("diamondWeight").simplesort("animalClass").data());
     });
   }
   public async getCalibers(): Promise<Caliber[]> {
     return new Promise<Caliber[]>((resolve, reject) => {
-      let request: any = {};
+      const request: any = {};
       resolve(this.calibers.find(request));
     });
   }
 
-  public async getCaliber(caliber:string): Promise<Caliber> {
+  public async getCaliber(caliber: string): Promise<Caliber> {
     return new Promise<Caliber>((resolve, reject) => {
-      resolve(this.calibers.by("caliberID",caliber));
+
+      if (!this.calibers.by("caliberID", caliber) == undefined)
+        resolve(this.calibers.by("caliberID", caliber) as Caliber);
+      else
+        reject("nicht gefunden");
     });
   }
 
   public async getMaps(): Promise<Map[]> {
     return new Promise<Map[]>((resolve, reject) => {
-      let request: any = {};
+      const request: any = {};
       resolve(this.maps.find(request));
     });
   }
   public async getCallers(): Promise<Caller[]> {
     return new Promise<Caller[]>((resolve, reject) => {
-      let request: any = {};
+      const request: any = {};
       resolve(this.callers.find(request));
     });
   }
