@@ -70,9 +70,9 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import axios from "axios";
-import animal from "../../shared/animal";
-import Caliber, { WeaponType, Ammo } from "../../shared/caliber";
-import Map from "../../shared/map";
+import animal from "../../../shared/animal";
+import Caliber, { WeaponType, Ammo } from "../../../shared/caliber";
+import Map from "../../../shared/map";
 import router from "../router";
 
 @Component
@@ -101,7 +101,7 @@ export default class EditCaliber extends Vue {
         .then((response) => {
           this.caliber = response.data;
         })
-        .catch(console.log);
+        .catch(console.log); 
     } else {
       this.caliber = {
         caliberID: "Wumme",

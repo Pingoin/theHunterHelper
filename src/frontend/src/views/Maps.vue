@@ -1,7 +1,8 @@
 <template>
 <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <table class="table table-striped table-hover">
+  <v-simple-table dense>
+    <template v-slot:default>
         <thead>
             <tr>
                 <th scope="col">Karte<span class="arrow"></span></th>
@@ -18,7 +19,8 @@
                 </td>
             </tr>
         </tbody>
-    </table>
+    </template> 
+      </v-simple-table>
 </div>
 </template>
 
@@ -28,7 +30,7 @@ import {
     Vue
 } from 'vue-property-decorator';
 import axios from "axios";
-import Map from "../../shared/map"
+import Map from "../../../shared/map"
 
 @Component
 export default class Maps extends Vue {

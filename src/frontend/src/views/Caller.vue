@@ -27,7 +27,7 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import axios from "axios";
-import caller from "../../shared/caller";
+import caller from "../../../shared/caller";
 
 @Component
 export default class Caliber extends Vue {

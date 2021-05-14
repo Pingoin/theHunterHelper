@@ -30,7 +30,7 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import axios from "axios";
-import caliber from "../../shared/caliber";
+import caliber from "../../../shared/caliber";
 import router from "../router";
 @Component
 export default class Caliber extends Vue {

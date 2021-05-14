@@ -3,13 +3,14 @@
     <select @change="changeMap($event.target.value)" v-model="map">
       <option v-for="map in maps" :key="map.mapName" :value="map.mapName">{{ map.mapName }}</option>
     </select>
-    <b-table-simple hover striped small caption-top>
-      <b-thead head-variant="dark">
+  <v-simple-table dense>
+    <template v-slot:default>
+      <thead head-variant="dark">
         <tr>
           <th class="calibers">Kaliber<span class="arrow"></span></th>
           <th v-for="animal in animals" :key="animal.animalID">{{ animal.animalName }} ({{ animal.animalClass }})<span class="arrow"></span></th>
         </tr>
-      </b-thead>
+      </thead>
       <tbody>
         <template v-for="caliber in calibers">
           <tr v-for="ammo in caliber.ammos" :key="caliber.caliberID + ammo.ammoType">
@@ -24,16 +25,17 @@
           </tr>
         </template>
       </tbody>
-    </b-table-simple>
+    </template>
+  </v-simple-table>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import axios from "axios";
-import animal from "../../shared/animal";
-import Caliber from "../../shared/caliber";
-import Map from "../../shared/map";
+import animal from "../../../shared/animal";
+import Caliber from "../../../shared/caliber";
+import Map from "../../../shared/map";
 import router from "../router";
 
 @Component

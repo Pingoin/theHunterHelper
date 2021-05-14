@@ -42,7 +42,7 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import axios from "axios";
-import animal from "../../shared/animal";
+import animal from "../../../shared/animal";
 
 @Component
 export default class Home extends Vue {

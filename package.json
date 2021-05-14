@@ -5,14 +5,14 @@
   "main": "./dist/backend/main.js",
   "scripts": {
     "clean": "rimraf dist/*",
-    "start": "node ./dist/backend/index.js",
+    "start": "node ./dist/src/backend/main.js",
     "serve": "vue-cli-service serve --port 3070",
     "build": "npm-run-all clean build:backend build:frontend",
-    "build:frontend": "vue-cli-service build",
-    "build:backend": "tsc --project tsconfig.backend.json --alwaysStrict true",
+    "build:frontend": "cd ./src/frontend && vue-cli-service build",
+    "build:backend": "tsc  --alwaysStrict true",
     "start:dev": "nodemon",
-    "ts-node": "ts-node --project tsconfig.backend.json src/backend/main.ts",
-    "docs": "typedoc --project tsconfig.backend.json",
+    "ts-node": "ts-node src/backend/main.ts",
+    "docs": "typedoc",
     "update": "ncu -u && npm update"
   },
   "repository": {
